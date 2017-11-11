@@ -2,6 +2,12 @@
 Author: Ryan Baclit
 Email: gamehelphere@gmail.com
 Date: 11/11/2017
+Disclaimer:
+
+This software does not come with a warranty of any kind. It is your responsibility
+to take care of your computer, software, and related setups. You will not hold the
+author responsible for any problems that may arise during your use of the software.
+
 Description:
 
 The SQLite3 database portion of my WSGI Python server. It uses the schema included with this
