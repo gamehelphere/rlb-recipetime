@@ -12,6 +12,8 @@ The WSGI Python web server to handle HTTP requests from my AngularJS 5 project. 
 The full schema document in Open Document Sheet format is included. That file has the extension .ODS in this project. You will
 need to use an office software like LibreOffice (http://www.libreoffice.org) to view the file.
 
+A text version of the schema is in the table structure document included with the project. I ran the .schema command in the SQLite3 command line.
+
 Installation
 
 My setup uses Ubuntu Linux 17. If you have another operating system, make the necessary adjustments by reading proper documents online based on your setup.

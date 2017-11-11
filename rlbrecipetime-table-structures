@@ -1,0 +1,28 @@
+CREATE TABLE recipe (
+recipecode INTEGER PRIMARY KEY,
+description TEXT,
+date TEXT,
+servingsize REAL,
+servingsizeunit INT NOT NULL
+);
+
+CREATE TABLE ingredients (
+ingredientcode INTEGER PRIMARY KEY,
+recipecode INTEGER NOT NULL,
+description TEXT,
+amount REAL,
+unitcode INTEGER NOT NULL
+);
+
+CREATE TABLE unit
+(
+unitcode INTEGER PRIMARY KEY,
+description TEXT
+);
+
+CREATE TABLE procedure
+(
+procedurecode INTEGER PRIMARY KEY,
+recipecode INTEGER NOT NULL,
+step TEXT
+);
