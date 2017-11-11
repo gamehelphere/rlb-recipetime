@@ -9,6 +9,9 @@ Description:
 
 The WSGI Python web server to handle HTTP requests from my AngularJS 5 project. The server consists of two files, and those are the rlb-recipetime.py and the rlb_sql.py files. You still need additional files and softwares to make this server run for testing.
 
+The full schema document in Open Document Sheet format is included. That file has the extension .ODS in this project. You will
+need to use an office software like LibreOffice (http://www.libreoffice.org) to view the file.
+
 Installation
 
 My setup uses Ubuntu Linux 17. If you have another operating system, make the necessary adjustments by reading proper documents online based on your setup.
